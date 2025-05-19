@@ -27,7 +27,7 @@ IRRBB-OptionRisk-StressTest/
 
 ## Methodology
 
-#Behavioral Assumptions:
+# Behavioral Assumptions:
 Loan Prepayment (prepayment_rate)
 - Modeled as Conditional Prepayment Rate (CPR)
 - Based on loan type, rate differential, and sensitivity
@@ -37,7 +37,7 @@ NMD Withdrawal (nmd_decay_rate)
 - Differentiates between core and non-core balances
 - Behavior based on deposit type, rate gap, and sensitivity
 
-#Stress Testing:
+# Stress Testing:
 - Interest rate shock range: -200 to +200 bps in 25 bps increments
 - Assumes base market rate of 4.5%
 - Simulates:
@@ -62,15 +62,15 @@ Trend Visualization
 
 ## How to Run
 Prepare balance sheet
-Modify Balance_sheet.csv with your portfolio data
+- Modify Balance_sheet.csv with your portfolio data
 
 Run simulation
-Open and execute StressTesting.ipynb
-Generates Stress_Test_Output.csv
+- Open and execute StressTesting.ipynb
+- Generates Stress_Test_Output.csv
 
 Visualize in Power BI
-Open StressTesting_Report.pbix
-Load the CSV output and explore interactive charts
+- Open StressTesting_Report.pbix
+- Load the CSV output and explore interactive charts
 
 ## License
 This project is intended for educational and exploratory use. For production use, proper model validation, regulatory compliance, and audit controls are required.
